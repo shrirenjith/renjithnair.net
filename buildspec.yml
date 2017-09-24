@@ -4,12 +4,11 @@ phases:
   install:
     commands:
       - echo running Gulp Install..
-      - npm install gulp-cli -g  
-      - npm install gulp --save-dev   
+      - npm install gulp-cli -g 
   pre_build:
     commands:
       - echo Installing NPM dependencies...
-      - npm install 
+      - npm install  --save-dev   
   build:
     commands:
       -  echo Build started on `date`      
