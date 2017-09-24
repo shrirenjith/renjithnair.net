@@ -5,6 +5,7 @@ phases:
     commands:
       - echo running Gulp Install..
       - npm install gulp-cli -g 
+      - npm install gulp -D
   pre_build:
     commands:
       - echo Installing NPM dependencies...
