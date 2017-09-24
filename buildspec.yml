@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo running Gulp Install..
+      - npm install gulp-cli -g     
+  pre_build:
+    commands:
+      - echo Installing NPM dependencies...
+      - npm install 
+  build:
+    commands:
+      -  echo Build started on `date`      
+      -  gulp 
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  base-directory: build
+    
