@@ -4,7 +4,8 @@ phases:
   install:
     commands:
       - echo running Gulp Install..
-      - npm install gulp-cli -g     
+      - npm install gulp-cli -g  
+      - npm install gulp --save-dev   
   pre_build:
     commands:
       - echo Installing NPM dependencies...
