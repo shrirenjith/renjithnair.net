@@ -4,16 +4,16 @@ phases:
   install:
     commands:
       - echo running Gulp Install..
-      - npm install gulp-cli -g 
-      - npm install gulp -D
+      - sudo npm install gulp-cli -g 
+      - sudo npm install gulp -D
   pre_build:
     commands:
       - echo Installing NPM dependencies...
-      - npm install  --save-dev   
+      - sudo npm install  --save-dev   
   build:
     commands:
       -  echo Build started on `date`      
-      -  gulp 
+      -  gulp run 
   post_build:
     commands:
       - echo Build completed on `date`
