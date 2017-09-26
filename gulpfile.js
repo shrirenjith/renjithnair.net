@@ -78,7 +78,7 @@ gulp.task('js', function() {
             'node_modules/jquery/dist/jquery.js',
             'node_modules/tether/dist/js/tether.min.js',
             'node_modules/bootstrap/dist/js/bootstrap.min.js',
-            'node_modules/popper.js/dist/umd/popper.min.js',
+            'node_modules/popper.js/dist/umd/popper.js',
             'node_modules/jquery.easing/jquery.easing.js',
             folder.src + 'js/*.js',
             folder.src + 'js/**/*.js'
